@@ -12,7 +12,7 @@ const baz = {foo};
 baz // {foo: "bar"}
 
 // 等同于
-const baz = {foo: foo};
+const baz = {foo: "bar"};
 ```
 
 上面代码表明，ES6 允许在对象之中，直接写变量。这时，属性名为变量名, 属性值为变量的值。下面是另一个例子。
